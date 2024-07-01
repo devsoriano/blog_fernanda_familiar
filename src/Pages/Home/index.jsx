@@ -16,7 +16,7 @@ export const Home = () => {
 
   return (
     <Layout>
-      <div className="cards flex flex-wrap w-[90%] mx-auto gap-5 justify-center">
+      <div className="cards flex flex-wrap w-[90%] mx-auto mt-14 gap-5 justify-center">
         {renderView()}
       </div>
     </Layout>

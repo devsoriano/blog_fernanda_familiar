@@ -17,8 +17,8 @@ export const Card = ({ data }) => {
   return (
     <div
       className={`card_body shadow-lg md:w-[30%] w-[320px] cursor-pointer ${
-        read ? "bg-blue-300" : ""
-      }`}
+        read ? "bg-pink-200" : ""
+      } hover:bg-pink-300`}
       onClick={(e) => handleViewNote(e, link)}
     >
       <img src={jetpack_featured_media_url} alt={title} />
